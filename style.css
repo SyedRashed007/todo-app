@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yellowtail', cursive;
+    background-color: #e0dddd;
+    color: #696969;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #222222;
+    font-size: 8rem;
+    text-align: center;
+}
+
+form {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 394px;
+}
+
+.input {
+    border: none;
+    color: #444;
+    font-size: xx-large;
+    padding: 1px 2px;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #a8a8a8;
+    font-family: 'Yellowtail', cursive;
+}
+
+.todos {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.todos li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    list-style-position: inside;
+}
+
+.todos li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+small {
+    color: #777777;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: bold;
+}
